@@ -4,12 +4,16 @@ A repository for Python Code Examples I write.  This is a combination of project
 # PROJECTS
 
 ## Encypted UDP Command Execution Client/Server
-Sends commands to be executed via UDP.  Shares a secret key for the encryption which is hardcoded.
+Sends commands to be executed via UDP.  Shares a secret key for the encryption which is hardcoded. 
+
+Files:
 - udp-client.py
-'''
-./udp-client.py IP PORT
-'''
 - udp-server.py
-'''
-./udp-server.py IP PORT
-'''
+
+Usage: 
+- './udp-client.py IP PORT'
+- './udp-server.py LOCALIP PORT'
+
+Example:
+ # ./udp-server.py localhost 9000
+ 
