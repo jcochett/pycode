@@ -53,6 +53,9 @@ Creates the file, adds the interpreter line, and changes linux permissions to ex
 ## Example code for a GUI in qt
 - qt-gui-example.py
 
+## Encypt and Decrypt functions
+- aes-example.py 
+
 # GITHUB
 
 ## Create a new repository on the command line
